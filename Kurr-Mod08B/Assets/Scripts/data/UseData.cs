@@ -75,7 +75,7 @@ public class UseData : MonoBehaviour
         rowCount++;
 
         transform.localScale = new Vector3(tempFloat, tempFloat, tempFloat);
-        Debug.Log("The tempFloat = " + tempFloat);
+        Debug.Log("The tempFloat from UserData = " + tempFloat);
         Debug.Log("Count = " + rowCount);
     }
 
